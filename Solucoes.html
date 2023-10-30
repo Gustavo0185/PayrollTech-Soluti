@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayrollTech - Soluções</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            flex-flow: row wrap;
+            height: 100px;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            position: top;
+            width: 100%;
+        }
+
+        .logo {
+            flex: 20%;
+            margin-left: 9%;
+            text-align: left;
+        }
+
+        .menu {
+            flex: 70%;
+            text-align: right;
+            padding: 20px;
+        }
+
+        .menu a {
+            color: #180f4a;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px 16px;
+        }
+
+        .menu a:hover {
+            color: #ff2978;
+            border-top: 4px solid #180f4a;
+        }
+
+        #botao {
+            background: #ff7561;
+            padding: 10px 25px;
+            color: white;
+            border-radius: 5px;
+            margin-right: 10%;
+            margin-left: 5%;
+        }
+
+        #botao:hover {
+            border: none;
+            background: #ff2978;
+        }
+
+        .solucao {
+            background-color: #ff7561;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .solucao h2 {
+            color: white;
+        }
+
+        .solucao ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .solucao ul li {
+            background-image: url('checkmark.png');
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+            padding-left: 25px;
+            margin-bottom: 10px;
+
+            
+        }
+
+        footer{
+    margin-top: 30px;
+    height: 200px;  
+    background-image: linear-gradient(180deg,#6743af, #180f4a);
+    text-align: center;
+    border-top: 5px solid #ff7561;
+}
+
+.logo-rodape{
+    padding: 30px;
+}
+
+.agencia{
+    font-family: 'Fjalla One', sans-serif;
+    color: #6743af;
+    font-size: 34px;
+}
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img style="max-width: 250px;" src="img/logo.png">
+        </div>
+        <div class="menu">
+            <a href="index.html"> Home</a>
+            <a href="SobreNos.html"> Sobre nós</a>
+            <a href="Contato.html"> Contato</a>
+            <a href="Servicos.html"> Serviços</a>
+            <a href="Solucoes.html"> Soluções</a>
+            <a href="Orcamento.html" id="botao"> Orçamento </a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="solucao">
+                                <h2>Automatização de Processos de Pagamento</h2>
+                                <p>Nossa solução de Automatização de Processos de Pagamento oferece uma maneira eficiente e segura de gerenciar
+                                    os salários dos seus funcionários...</p>
+                                <h4>Benefícios:</h4>
+                                <ul>
+                                    <li>Economia de Tempo</li>
+                                    <li>Precisão</li>
+                                    <li>Conformidade</li>
+                                    <li>Relatórios Detalhados</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="solucao">
+                                <h2>Assistência Fiscal e Contábil</h2>
+                                <p>Nossa solução de Assistência Fiscal e Contábil é projetada para simplificar as complexidades do sistema fiscal
+                                    e contábil...</p>
+                                <h4>Benefícios:</h4>
+                                <ul>
+                                    <li>Conformidade Fiscal</li>
+                                    <li>Orientação Especializada</li>
+                                    <li>Redução de Estresse</li>
+                                    <li>Tempo para Concentrar-se no Negócio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <footer>
+        <div class="logo-rodape">
+        <h1 class="agencia"> PayrollTech </h1>
+        <p style="color: white;"> Sua melhor escolha para pagamentos </p>
+    </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+ 
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center; 
+    position: top; 
+    width: 100%;
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 9%;
+    
+    /* border: 1px solid red; */
+    text-align: left;
+    
+}
+
+
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color:#180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color:#ff2978;
+    border-top: 4px solid #180f4a;
+}
+#botao{
+    background: #ff7561;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 7%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background: #ff2978;
+}
+
+
+
+body {
+    background-color: #e6e6ff; /* Cor de fundo roxo claro */
+    color: #333; /* Cor do texto */
+    }
+    .hero-section {
+    background: none;
+    padding: 10px 0;
+    text-align: center;
+    }
+    .hero-content {
+    background-color: #FFFFFF; /* Cor de fundo roxo translúcido */
+    padding: 20px;
+    border-radius: 10px;
+    border: 8px solid rgba(
+        106,
+        13,
+        173,
+        0.8
+        );;
+    }
+    .hero-content h1 {
+    color: #000000; /* Cor do título */
+    font-size: 36px;
+    }
+    .hero-content p {
+    color: #000000; /* Cor do texto do destaque */
+    }
+    .hero-button {
+    margin-top: 20px;
+    }
+    .navbar a {
+    color: #333; /* Cor dos links na barra de navegação */
+    }
+    .logo-rodape h1,
+    .logo-rodape p {
+    color: #fff; /* Cor do texto no rodapé */
+    }
+
+
+
+footer{
+    margin-top: 10px;
+    height: 200px;  
+    background-image: linear-gradient(180deg,#6743af, #180f4a);
+    text-align: center;
+    border-top: 5px solid #ff7561;
+}
+
+.logo-rodape{
+    padding: 30px;
+}
+
+.agencia{
+    font-family: 'Fjalla One', sans-serif;
+    color: #6743af;
+    font-size: 34px;
+}
+
+.whats{
+    flex-flow: row wrap;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+

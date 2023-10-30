@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+ 
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background-color: white;
+    justify-content: center;
+    align-items: center; 
+    position: fixed; 
+    width: 100%;
+}
+
+.logo{
+    flex: 20%;
+    margin-left: 9%;
+    
+    /* border: 1px solid red; */
+    text-align: left;
+    
+}
+
+
+.menu{
+    flex: 70%;
+    /* border: 1px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color:#180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color:#ff2978;
+    border-top: 4px solid #180f4a;
+}
+#botao{
+    background: #ff7561;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    border: none;
+    background: #ff2978;
+}
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #f8eff3;
+}
+
+
+
+.a2 {
+  margin: 0;
+  padding: 0;
+  width: 5%;
+  height: 5%;
+}
+
+.a2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 1px;
+  font-family: 'DM Sans', sans-serif;
+  transition: background .4s ease-in;
+  background-color: #7c32d1;
+  
+  &.blue {
+    background-color: #428aa6;
+  }
+}
+
+.a2 input[type=radio] {
+  display: none;
+}
+
+.a2 , .card {
+  position: fixed;
+  width: 40%;
+  height: 60%;
+  left: 680px;
+  right: 580px;
+  margin: -80px;
+  transition: transform .4s ease;
+  cursor: pointer;
+}
+
+.nome{ 
+    padding: 60px;
+    font-size: 40px;
+    margin: -50;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.a2 .container {
+  width: 5%;
+  max-width: 10px;
+  max-height: 10px;
+  height: 5%;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.a2 .cards {
+  position: center;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 0px;
+}
+
+.a2 .img {
+  width: 5%;
+  height: 5%;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+  transform: translatex(-40%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+  transform: translatex(40%) scale(.8);
+  opacity: .4;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+  
+a2 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+}
+
+footer{
+    margin-top: 340px;
+    height: 130px;  
+    background-image: linear-gradient(180deg,#6743af, #180f4a);
+    text-align: center;
+    border-top: 5px solid #ff7561;
+}
+
+.logo-rodape{
+    padding: 0px;
+
+}
+
+.agencia{
+    font-family: 'Fjalla One', sans-serif;
+    color: #6743af;
+    font-size: 34px;
+}
+
